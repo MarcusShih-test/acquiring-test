@@ -458,12 +458,12 @@ section{
       margin-bottom: 6%;
       margin-left: 6%;
       color:white;
-      font-weight: 1;
+      font-weight: 10;
       text-align: left;
       letter-spacing: 4px;
       line-height: 3em;
       overflow: hidden;
-      font-size: 5px;
+      font-size: 6px;
       /* background:rgba(151,71,255,0.1); */
       
   }
