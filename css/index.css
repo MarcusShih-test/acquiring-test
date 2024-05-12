@@ -20,7 +20,7 @@
 
 
 body {
-  overflow: hidden;
+
 	  background: linear-gradient(-45deg,black, #4da5f1, #c65294,black);
     background-size: 400% 400% ;
 	  animation: gradient 10s ease infinite;
