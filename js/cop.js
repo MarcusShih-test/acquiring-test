@@ -20,7 +20,7 @@ function get_con(file_name){
      
          var html ='<div class="box">';
          html +='<div class="imgbox">';
-         html +='<a href="'+en['w_url']+'"><img src="../cop-img/'+en['img_name']+'"/></a>';
+         html +='<a href="'+en['w_url']+'"><img src="cop-img/'+en['img_name']+'"/></a>';
          html +='</div>';
          html +='<a href="'+en['w_url']+'"><h3>'+en['title']+'</h3></a>';
          //html +='<p>'+en['des']+'</p>';
