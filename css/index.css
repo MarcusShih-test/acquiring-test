@@ -76,7 +76,7 @@ body {
   display: flex;
   justify-content: center;
   align-items:center;
-  opacity: 0.2;
+/*   opacity: 0.2; */
 }
 
 .inlinevideo video{
@@ -87,8 +87,8 @@ body {
  left:0;
  object-fit: cover;
  z-index:1; 
- animation: fadein 1.5s;
- filter: grayscale(1);
+/*  animation: fadein 1.5s;
+ filter: grayscale(1); */
 }
 
 
