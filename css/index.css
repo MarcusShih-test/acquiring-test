@@ -1,0 +1,154 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Manto';
+  src:  url('../img/Manto.ttf') format("truetype");
+  src: url('../img/Manto.woff2') format('woff2');       
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #aaa; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+body {
+  
+	  background: linear-gradient(-45deg,black, #4da5f1, #c65294,black);
+    background-size: 400% 400% ;
+	  animation: gradient 10s ease infinite;
+    /* cursor:crosshair; */
+    /* height: 2000px; Ensure there is enough room to scroll */
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	25% {
+		background-position: 50% 100%;
+	}
+    50% {
+		background-position: 100% 50%;
+	}
+    75% {
+		background-position: 50% 0%;
+	}
+    100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*works*/
+*{  
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* test */
+    margin:0;
+    padding:0;
+    font-family: "Perpetua Titling MT Light";    
+}
+
+
+
+.inlinevideo{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  opacity: 0.2;
+}
+
+.inlinevideo video{
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ top:0;
+ left:0;
+ object-fit: cover;
+ z-index:1; 
+ animation: fadein 1.5s;
+ filter: grayscale(1);
+}
+
+
+#logo {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo img {  
+  margin-top: 15%;
+  width: 20%;
+  opacity: 0; 
+  /* ANIMATION */
+  animation: fadein 1s;
+  animation-delay: 1.5s; 
+  animation-fill-mode: forwards;
+  z-index: 2;
+}
+
+.ins-txt{
+  
+  color: white;
+  /* text-shadow: #9747FF 0.1em 0.1em ; */
+  text-align: center;
+  font-size: 20px;
+  font-weight: 0;
+  opacity: 0; 
+  animation: fadein 1s;
+  animation-delay: 2s; 
+  animation-fill-mode: forwards;
+  z-index: 2;; 
+}
+
+h2{
+  font-family:'Source Sans Pro', '微軟正黑體', sans-serif;
+  z-index: 2;
+
+}
+a {
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width:1200px){
+
+}
+
+@media only screen and (max-width:900px){
+  
+  body {
+      padding:0;
+      background: linear-gradient(-90deg,black, #4da5f1, #c65294,black);
+      background-size: 200% 200%;
+      animation: gradient 15s ease infinite;
+      height: auto;
+  }
+  .ins-txt{
+    text-align: center;
+    font-size: 10px;
+  }
+}
