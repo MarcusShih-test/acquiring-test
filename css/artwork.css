@@ -25,6 +25,10 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 150vh;
     /* cursor:crosshair; */
+
+    
+    
+
 }
 
 @keyframes gradient {
@@ -128,12 +132,6 @@ body{
     margin:auto;
     box-sizing:border-box;
     padding:30px;
-
-    /* animation */
-    opacity: 0; 
-    animation: fadein 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
 }
 
 section{
@@ -147,6 +145,11 @@ section{
 .main-photo{
     max-width: 100%;
     max-height: 100%;
+    /* animation */
+    opacity: 0; 
+    animation: fadein 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 .ct-box1{
@@ -165,6 +168,12 @@ section{
     overflow: hidden;
     /* background:rgba(151,71,255,0.1); */
 
+    /* animation */
+    opacity: 0; 
+    animation: fadein 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
 }
 
 .moss{
@@ -178,6 +187,11 @@ section{
     letter-spacing: 4px;
     line-height: 3em;
     overflow: hidden;
+    /* animation */
+    opacity: 0; 
+    animation: fadein 1s;
+    animation-delay: 1.0s;
+    animation-fill-mode: forwards;
 }
 
 .content1 ,.content2{
@@ -192,7 +206,11 @@ section{
     overflow: hidden;
     
     /* background:rgba(151,71,255,0.1); */
-    
+    /* animation */
+    opacity: 0; 
+    animation: fadein 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 /*menutoggle*/
