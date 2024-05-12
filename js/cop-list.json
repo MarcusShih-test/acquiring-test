@@ -1,0 +1,26 @@
+[
+    
+    {
+        "w_url": "https://www.apple.com/tw/store?afid=p238%7Csd9nZSawW-dc_mtid_18707vxu38484_pcrid_698838307194_pgrid_12618487622_pntwk_g_pchan__pexid__&cid=aos-tw-kwgo-brand--slid---product-",
+        "img_name": "apple.jpg",
+        "title": "Apple Taiwan",
+        "des": "hello"
+        
+    },
+    
+    {
+        "w_url": "https://www.milksha.com/",
+        "img_name": "milkshop.jpg",
+        "title": "迷克夏",
+        "des": "hello"
+        
+    },
+    
+    {
+        "w_url": "https://www.mediatek.tw/",
+        "img_name": "mediatek.jpg",
+        "title": "聯發科技",
+        "des": "hello"
+        
+    }
+]
