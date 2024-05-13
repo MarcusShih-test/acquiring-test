@@ -20,7 +20,7 @@
 
 
 body {
-
+  
 	  background: linear-gradient(-45deg,black, #4da5f1, #c65294,black);
     background-size: 400% 400% ;
 	  animation: gradient 10s ease infinite;
@@ -100,7 +100,7 @@ body {
 
 #logo img {  
   margin-top: 15%;
-  width: 20%;
+  width: 10vw;
   opacity: 0; 
   /* ANIMATION */
   animation: fadein 1s;
@@ -200,7 +200,7 @@ a {
     max-width: 100%; 
     /* min-width: 100%;
     max-width: 100%;  */ 
-    width: auto; 
+    width: 40vw;
     height: auto; 
     position: absolute;  
 
