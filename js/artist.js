@@ -11,6 +11,8 @@ $(document).ready(function(){
      
  
  });
+
+
  
 //  function get_con(file_name){
 //      $.getJSON(file_name, function(data){
@@ -60,7 +62,7 @@ function get_con(file_name){
         //     $(this).data('alt-src', $(this).attr('src'));  // 保存切换后的src
         //     $(this).attr('src', altSrc);  // 恢复原始图片
         // });
-        $('.imgbox img').hover(
+        $('.imgbox img').click(
             function() {
                 // 鼠标进入
                 var img = $(this); // 缓存当前图片对象
