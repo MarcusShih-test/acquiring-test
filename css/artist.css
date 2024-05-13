@@ -34,8 +34,12 @@ body {
     -moz-user-select:none;
     -o-user-select:none;
     user-select:none;
-    margin-left: 40px;
+    /* margin-left: 40px; */
 
+}
+
+.wrapper{
+    margin: 0 auto; width: 1070px;
 }
 
 @keyframes gradient {
@@ -74,9 +78,9 @@ a:hover{
 
 nav{
     width:1160px;
-    margin: auto;
+    /* margin: auto; */
     margin-bottom:40px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     /* background-color: aqua; */
     /* background-image: url(../img/title-2.png);
     background-size: contain;
@@ -90,8 +94,6 @@ nav{
 
 .title{
     padding:0;
-/* 	display:flex;
-	justify-content:center; */
 }
 
 nav h1{
@@ -99,12 +101,12 @@ nav h1{
     text-align: center;
     font-weight:100;
     font-size:70px;
-/*     display: inline-block; */
+    display: inline-block;
     text-shadow: #9747FF 0.1em 0.1em ;
      /* title color */
     color: white;
     font-family: 'Manto';
-    margin-left: 25vw;
+    margin-left: 27.7vw;
     margin-top: 30px;
     
     
