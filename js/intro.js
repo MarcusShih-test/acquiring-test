@@ -40,7 +40,7 @@ function get_con(file_name){
         $.each(data, function(index, en){
             var html ='<div class="box">';
          html +='<div class="imgbox">';
-         html +='<a href="artwork-pg/'+en['w_url']+'"><img src="artwork-img/'+en['img_name']+'"/></a>';
+         html +='<a href="artwork-pg/'+en['w_url']+'"><img src="artwork-img/1/'+en['img_name']+'"/></a>';
         
             /*html += '<div id = "myModal" class="modal">';
             html += '<div class="modal-content">';

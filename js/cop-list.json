@@ -1,25 +1,57 @@
 [
     
     {
-        "w_url": "https://www.apple.com/tw/store?afid=p238%7Csd9nZSawW-dc_mtid_18707vxu38484_pcrid_698838307194_pgrid_12618487622_pntwk_g_pchan__pexid__&cid=aos-tw-kwgo-brand--slid---product-",
-        "img_name": "apple.jpg",
-        "title": "Apple Taiwan",
+        "w_url": "https://www.nthu.edu.tw/",
+        "img_name": "nthu.jpg",
+        "title": "國立清華大學",
         "des": "hello"
         
     },
     
     {
-        "w_url": "https://www.milksha.com/",
-        "img_name": "milkshop.jpg",
-        "title": "迷克夏",
+        "w_url": "https://ipta.nthu.edu.tw/",
+        "img_name": "ipta.jpg",
+        "title": "藝術學院學士班",
         "des": "hello"
         
     },
     
     {
-        "w_url": "https://www.mediatek.tw/",
-        "img_name": "mediatek.jpg",
-        "title": "聯發科技",
+        "w_url": "https://clab.org.tw/",
+        "img_name": "clab.jpg",
+        "title": "臺灣當代文化實驗場",
+        "des": "hello"
+        
+    },
+
+    {
+        "w_url": "https://reca.cc/",
+        "img_name": "reca.jpg",
+        "title": "RECA",
+        "des": "hello"
+        
+    },
+
+    {
+        "w_url": "https://www.mk2000.com.tw/",
+        "img_name": "morning.png",
+        "title": "晨間廚房",
+        "des": "hello"
+        
+    },
+
+    {
+        "w_url": "https://www.instagram.com/watcocktail/",
+        "img_name": "wat.jpg",
+        "title": "WAT Cocktail",
+        "des": "hello"
+        
+    },
+
+    {
+        "w_url": "https://www.instagram.com/me.gusta2019_2.0/",
+        "img_name": "me-gusta.jpg",
+        "title": "Me.gusta 美咕史塔",
         "des": "hello"
         
     }
