@@ -141,6 +141,9 @@ nav{
   display: flex;
   justify-content: center;
   align-content: center;
+  /* width:610px;
+
+  margin-left: 23%; */
 }
 
 nav h1{
@@ -167,7 +170,7 @@ nav h2{
   color: white;
   font-family: 'Source Sans Pro';
   /* margin-left: 27.7vw; */
-  margin-top: 15px;
+  /* margin-top: 15px; */
   border-top:3px solid white;
   border-bottom:3px solid white;
   padding-bottom: 2px;
@@ -263,16 +266,16 @@ section{
 }
 
 .moss{
-    height: 30%;
+    height: 0%;
     margin-left: 9%;
-    margin-bottom: 6%;
+    margin-bottom: 0;
     /* margin-bottom: 20px; */
     color:white;
     font-size: 30px;
     font-weight: 1;
     text-align: left;
     letter-spacing: 4px;
-    line-height: 3em;
+    line-height: 1em;
     overflow: hidden;
     /* animation */
     opacity: 0; 
@@ -283,6 +286,7 @@ section{
 
 .content1 ,.content2{
     height: 30%;
+    margin-top: 6%;
     margin-bottom: 6%;
     margin-left: 9%;
     color:white;
@@ -320,7 +324,7 @@ cursor:pointer;
   width: 40px;
   height: 40px;
   position: relative;
-   margin-top: 2vh;
+   margin-top: 3vh;
   /*margin-right: 46px; */
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
