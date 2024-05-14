@@ -20,6 +20,49 @@
 }
 
 
+
+
+.bg{
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-image: url(../img/bg.png);
+  position: fixed;
+  z-index:0;
+  -webkit-filter: brightness(0.8);
+  opacity: 0.4;
+  
+  
+}
+
+.wrapper{
+  margin: 0 auto; width: 1100px;
+  opacity: 1;
+  
+}
+
+footer{
+  background-color: black;
+  opacity: 0.5;
+  width: 100vw;
+  text-align: center;
+  vertical-align: middle;
+  height: 6vh;
+}
+
+footer a{
+  text-decoration: none;  
+}
+
+footer img{
+  opacity: 1;
+  height: 5vh;
+  position: relative;
+  top: 10%;
+  -webkit-filter: invert(1);
+  
+}
+
 body {
   overflow-x: hidden;
   background: linear-gradient(-45deg,black, #c5d5fa, #dd96de,black);
@@ -34,6 +77,7 @@ body {
   -o-user-select:none;
   user-select:none;
   /* margin-left: 65px; */
+
 
 }
 
@@ -72,10 +116,10 @@ a:hover{
 }
 
 nav{
-  width:1160px;
+  width:1120px;
   margin: auto;
   margin-bottom:60px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   /* background-color: aqua; */
   /* background-image: url(../img/title-2.png);
   background-size: contain;
@@ -168,7 +212,7 @@ nav li a:hover{
 }
 
 /* test square */
-div.square-two-container{margin-left: 13%; width:80%;max-width:80vw; display:flex;}
+div.square-two-container{margin-left:4%; width:100%;max-width:100vw; display:flex;}
 div.square-two-container div{width:50%;height:auto;padding-bottom:50%;padding-right: 5%;}
 /* div.square-two-container div.square-A{background-color:#ffd700;}
 div.square-two-container div.square-B{background-color:#9acd32;}  */
@@ -177,9 +221,9 @@ div.square-two-container div span{line-height:100px;display:block;}
 
 
 section{
-    width:1160px;
+    width:1120px;
     margin: auto;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 
@@ -264,7 +308,7 @@ section{
   height: 40px;
   float:right;
   margin-top: 75px;
-  margin-right: 90px;
+  margin-right: 50px;
 }
 
 .menu:hover{
@@ -350,7 +394,7 @@ cursor:pointer;
 /*bar*/
 
 .bar-top{
-  width:1070px;
+  width:1076px;
   position:relative;
   text-align:left;
   border-top:5px solid white;
@@ -366,7 +410,7 @@ cursor:pointer;
 }
 
 .bar{
-  width:1070px;
+  width:1076px;
   position:relative;
   text-align:center;
   /* border-top:3px solid white; */
@@ -393,10 +437,12 @@ cursor:pointer;
   text-shadow: #9747FF 0.1em 0.1em ;
 }
 
-@media only screen and (max-width:1200px){
-  nav, section{width:900px;padding-left: 20px;margin-left:auto;}
+@media only screen and (max-width:1170px){
+  .wrapper{width: 900px;}
+  nav, section{width:900px;padding-left: 30px;margin-left:auto;}
+  .bar-top{width: 830px;}
   .bar{width:830px;}
-  .menu{position:relative;top:-10px;left:20px;}
+  .menu{position:relative;bottom:30px;left:-20px;}
  
       div.square-two-container{margin-left: 10%; width:80%;max-width:80vw; display:flex;}
       div.square-two-container div{width:50%; padding-bottom:50%;padding-right: 5%;}
@@ -422,12 +468,13 @@ cursor:pointer;
         margin-bottom: 6%;
         /* margin-bottom: 20px; */
         color:white;
-        font-size: 5px;
+        font-size: 15px;
         font-weight: 10;
-        text-align: center;
+        text-align: left;
         letter-spacing: 4px;
         line-height: 3em;
         overflow: hidden;
+
     }
     
     .content1 ,.content2{
@@ -438,23 +485,32 @@ cursor:pointer;
         font-weight: 500;
         text-align: left;
         letter-spacing: 4px;
-        line-height: 3em;
+        line-height: 2em;
         overflow: hidden;
-        font-size: 5px;
+        font-size: 15px;
         /* background:rgba(151,71,255,0.1); */
         
+    }
+
+    .bar ul li a{
+      text-align: center;
+      padding: 11px;
+      font-size: 20px;
+      
+      
     }
   
 }
 
 @media only screen and (max-width:900px){
+  .wrapper{width: 250px;}
   nav, section{width:250px;padding-left: 0px;margin-left:auto;margin-bottom:30px;}
   .title{display: flex; justify-content: center;}
   nav h1{font-size:60px; margin-left: 0; margin-top: 5vw;}
   .box{width:250px;}
   .bar-top{width:250px;padding-top:20px;margin-top: 5vh;}
   .bar{width:250px;padding-top:20px;padding-bottom:30px;}
-  .menu{position:relative;left:100px;margin-top:63px;}
+  .menu{position:relative;left:50px;margin-top:63px;}
   .bar li{width:100%;}
   
   body {

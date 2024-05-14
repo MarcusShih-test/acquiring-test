@@ -24,6 +24,48 @@
   background: #555; 
 }
 
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-image: url(../img/bg.png);
+    position: fixed;
+    z-index:0;
+    -webkit-filter: brightness(0.8);
+    opacity: 0.4;
+    
+    
+  }
+  
+.wrapper{
+margin: 0 auto; width: 1100px;
+opacity: 1;
+
+}
+
+footer{
+    background-color: black;
+    opacity: 0.5;
+    width: 100vw;
+    text-align: center;
+    vertical-align: middle;
+    height: 6vh;
+}
+
+footer a{
+    text-decoration: none;   
+}
+
+footer img{
+opacity: 1;
+height: 5vh;
+position: relative;
+top: 10%;
+-webkit-filter: invert(1);
+
+}
+
+
 
 body {
     overflow-x: hidden;
@@ -38,7 +80,6 @@ body {
     -moz-user-select:none;
     -o-user-select:none;
     user-select:none;
-    margin-left: 65px;
 
 }
 
@@ -74,10 +115,10 @@ a:hover{
 }
 
 nav{
-    width:1160px;
+    width:1120px;
     margin: auto;
     margin-bottom:40px;
-    padding-left: 20px;
+    /* padding-right: 50px; */
     /* background-color: aqua; */
     /* background-image: url(../img/title-2.png);
     background-size: contain;
@@ -92,13 +133,15 @@ nav{
 
 
 .title{
-    
     padding:0;
+    display: flex;
+    justify-content: center;
+    width: 1070px;
 }
 
 nav h1{
-    align-content: center;
-    text-align: center;
+    /* align-content: center; */
+    text-align:center;
     font-weight:100;
     font-size:70px;
     display: inline-block;
@@ -106,7 +149,7 @@ nav h1{
      /* title color */
     color: white;
     font-family: 'Manto';
-    margin-left: 25.6vw;
+    /* margin-left: 27.7vw; */
     margin-top: 30px;
     
     
@@ -157,9 +200,9 @@ nav li a:hover{
 
 
 section{
-    width:1160px;
+    width:1120px;
     margin: auto;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .box{
@@ -216,7 +259,7 @@ section{
 	
 }
 
-.box a{
+.box h3 a{
     text-decoration: none;
 }
 
@@ -235,7 +278,7 @@ section{
     height: 40px;
 	float:right;
     margin-top: 75px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .menu:hover{
@@ -320,7 +363,7 @@ section{
 /*bar*/
 
 .bar-top{
-	width:1070px;
+	width:1076px;
     position:relative;
 	text-align:left;
     border-top:5px solid white;
@@ -330,7 +373,7 @@ section{
 }
 
 .bar{
-	width:1070px;
+	width:1076px;
     position:relative;
 	text-align:center;
     /* border-top:3px solid white; */
@@ -357,7 +400,8 @@ section{
 	text-shadow: #9747FF 0.1em 0.1em ;
 }
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1170px){
+    .wrapper{width:900px;}
     nav, section{width:900px;padding-left: 20px;}
     nav h1{margin-left: 28vw;}
     .bar-top{width:830px;}
@@ -372,14 +416,15 @@ section{
 }
 
 @media only screen and (max-width:900px){
+    .wrapper{width:250px;}
     nav, section{width:250px;padding-left: 0px;}
     nav{padding-top:30px;}
-    .title{display: flex; justify-content: center;}
+    .title{display: flex; justify-content: center;width: 250px;}
     nav h1{font-size:60px; margin-left: 0; margin-top: 5vw;}
     .box{width:250px;}
     .bar-top{width:250px;padding-top:20px;margin-top: 5vh;}
     .bar{width:250px;padding-bottom:30px;}
-    .menu{position:relative;left:100px;margin-top:63px;}
+    .menu{position:relative;left:50px;margin-top:63px;}
     .bar li{width:100%;}
    
     body {
