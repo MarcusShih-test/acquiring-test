@@ -132,16 +132,25 @@ nav{
 
 
 
-.title{
-    padding:0;
+.title1{
     display: flex;
     justify-content: center;
+    align-content: center;
     width: 1070px;
-}
-
-nav h1{
-    /* align-content: center; */
-    text-align:center;
+  }
+  
+  .title2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1070px;
+    /* width:610px;
+  
+    margin-left: 23%; */
+  }
+  
+  nav h1{
+    text-align: center;
     font-weight:100;
     font-size:70px;
     display: inline-block;
@@ -151,9 +160,22 @@ nav h1{
     font-family: 'Manto';
     /* margin-left: 27.7vw; */
     margin-top: 30px;
-    
-    
-}
+  }
+  
+  nav h2{
+    align-content: center;
+    text-align: center;
+    font-weight:600;
+    font-size:30px;
+    display: inline-block;
+    /* text-shadow: #9747FF 0.1em 0.1em ; */
+    /* title color */
+    color: white;
+    font-family: 'Source Sans Pro';
+    /* margin-left: 27.7vw; */
+    /* margin-top: 15px; */
+    padding-bottom: 2px;
+  }
 
 
 nav img{

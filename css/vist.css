@@ -150,10 +150,8 @@ nav h1{
   font-family: 'Manto';
   /* margin-left: 27.7vw; */
   margin-top: 30px;
-  
-  
+    
 }
-
 
 nav img{
 
@@ -203,8 +201,8 @@ section{
 }
 
 .title-img{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     /* animation */
     opacity: 0; 
     animation: fadein 1s;
@@ -212,10 +210,22 @@ section{
     animation-fill-mode: forwards;
     margin-top: 10vh;
 }
+.pic{
+    display: flex;
+    margin-bottom: 10vh;
+ }
+
+iframe{
+    max-width: 35vw;
+    max-height: 50vh;
+    
+}
 
 img{
-    max-width: 50vw;
+    max-width: 35vw;
     max-height: 50vh;
+    padding-right: 0.5vw;
+    
 }
 
 .moss{
@@ -232,24 +242,37 @@ img{
     animation-fill-mode: forwards;
 }
 
-.ct-box{
-    margin-left: 25%;
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
+.inform{
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+}
+
+
+.ct-box1{
+    /* display: inline-block; */
+    /* margin-left: 25%; */
+    max-width: 50%;  
     margin-bottom: 50px;
+    padding-right: 12vw;
+}
+
+.ct-box2{
+  /* margin-left: 25%; */
+  max-width: 50%;
+  margin-bottom: 25px;
 }
 
 .content{
 
-    margin-top: 20px;
+    margin-top: 0px;
     color:white;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
     letter-spacing: 4px;
-    overflow: hidden;
-    
+    overflow: hidden;  
     background:rgba(151,71,255,0.1);
+    font-weight: 800;
 
     /* animation */
     opacity: 0; 
@@ -265,7 +288,7 @@ img{
 .menu{
   width: 40px;
   height: 40px;
-float:right;
+  float:right;
   margin-top: 75px;
   margin-right: 50px;
 }
