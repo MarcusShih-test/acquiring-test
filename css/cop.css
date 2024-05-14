@@ -270,7 +270,7 @@ section{
 
 .box h3{
     margin-top:10px;
-    font-size:35px;
+    font-size:34px;
     font-weight: 1;
     font-family: 'Manto';
     color: white;
@@ -441,9 +441,9 @@ section{
     .wrapper{width:250px;}
     nav, section{width:250px;padding-left: 0px;}
     nav{padding-top:30px;}
-    .title{display: flex; justify-content: center;width: 250px;}
+   
     nav h1{font-size:60px; margin-left: 0; margin-top: 5vw;}
-    .box{width:250px;}
+    .box{width:250px;height:370px}
     .bar-top{width:250px;padding-top:20px;margin-top: 5vh;}
     .bar{width:250px;padding-bottom:30px;}
     .menu{position:relative;left:50px;margin-top:63px;}
@@ -466,5 +466,25 @@ section{
         -webkit-filter: grayscale(1);
     }
 
+    .box h3{
+        font-size:33px;    
+    }
+
+    .title1{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 250px;
+      }
+      
+      .title2{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 250px;
+        /* width:610px;
+      
+        margin-left: 23%; */
+      }
 }
 
