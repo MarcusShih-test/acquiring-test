@@ -1,7 +1,7 @@
 [
     {
         "w_url": "runrunrun.html",
-        "img_name": "runrunrun.png",
+        "img_name": "runrunrun.jpg",
         "title": "Run?Run...Run!"
     },
 
@@ -13,17 +13,17 @@
 
     {
         "w_url": "whisperingwillows.html",
-        "img_name": "whisperingwillows.JPG",
+        "img_name": "whisperingwillows.jpg",
         "title": "柳緣"
     },
     {
         "w_url": "imwatchingu.html",
-        "img_name": "imwatchingu.png",
+        "img_name": "imwatchingu.jpg",
         "title": "Im watching u <3"
     },
     {
         "w_url": "hello-world.html",
-        "img_name": "hello-world.png",
+        "img_name": "hello-world.jpg",
         "title": "來自新世界"
     },
     {
@@ -43,12 +43,12 @@
     },
     {
         "w_url": "flower-series.html",
-        "img_name": "flower-series.png",
+        "img_name": "flower-series.jpg",
         "title": "FLOW-ER SERIES"
     },
     {
         "w_url": "the-death-of-george.html",
-        "img_name": "the-death-of-george.JPG",
+        "img_name": "the-death-of-george.jpg",
         "title": "森林小動物與藝術家喬治之死"
     },
     {
@@ -59,7 +59,7 @@
     
     {
         "w_url": "ear.html",
-        "img_name": "ear.png",
+        "img_name": "ear.jpg",
         "title": "Ear™"
     },
     {
@@ -69,12 +69,12 @@
     },
     {
         "w_url": "the-modern-cave.html",
-        "img_name": "the-modern-cave.png",
+        "img_name": "the-modern-cave.jpg",
         "title": "The Modern Cave"
     },
     {
         "w_url": "familysample.html",
-        "img_name": "familysample.jpeg",
+        "img_name": "familysample.jpg",
         "title": "家庭樣本"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
         "w_url": "death-is-your-only-eternal-life.html",
-        "img_name": "death-is-your-only-eternal-life.JPG",
+        "img_name": "death-is-your-only-eternal-life.jpg",
         "title": "死亡是你唯一的永生"
     }
 ]
