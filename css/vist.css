@@ -22,7 +22,7 @@
 
 body {
   overflow-x: hidden;
-  background: linear-gradient(-45deg,black, #c5d5fa, #dd96de,black);
+  background: linear-gradient(-45deg,black, #97a7c9, #ad72ae,black);
   background-size: 400% 400% ;
   animation: gradient 15s ease infinite;
   height: auto;
@@ -210,14 +210,29 @@ section{
     animation-fill-mode: forwards;
     margin-top: 10vh;
 }
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
 .pic{
     display: flex;
+    flex-direction: column;
     margin-bottom: 10vh;
+    width: 30vw;
+    
+    /* animation */
+    opacity: 0; 
+    animation: fadein 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
  }
 
 iframe{
-    max-width: 35vw;
-    max-height: 50vh;
+    max-width: 29.5vw;
+    max-height: 45vh;
+    margin-top: 1vh;
     
 }
 
@@ -228,39 +243,28 @@ img{
     
 }
 
-.moss{
-    text-align: center;
-    letter-spacing: 4px;
-    overflow: hidden;
-    color: antiquewhite;
-    /* white-space: nowrap; */
 
-    /* animation */
-    opacity: 0; 
-    animation: fadein 1s;
-    animation-delay: 1.0s;
-    animation-fill-mode: forwards;
-}
 
 .inform{
   display: flex;
-  width: 70vw;
-  justify-content: center;
+  width: 40vw;
+  flex-direction: column;
 }
 
 
 .ct-box1{
     /* display: inline-block; */
     /* margin-left: 25%; */
-    max-width: 50%;  
-    margin-bottom: 50px;
-    padding-right: 12vw;
+    max-width: 27vw;  
+    
+    padding-right: 0vw;
+    margin-bottom: 19vh;
 }
 
 .ct-box2{
   /* margin-left: 25%; */
-  max-width: 50%;
-  margin-bottom: 25px;
+  max-width: 27vw; 
+
 }
 
 .content{
@@ -271,13 +275,14 @@ img{
     text-align: left;
     letter-spacing: 4px;
     overflow: hidden;  
-    background:rgba(151,71,255,0.1);
+    /* background:rgba(151,71,255,0.1); */
     font-weight: 800;
+    font-size: 25px;
 
     /* animation */
     opacity: 0; 
     animation: fadein 1s;
-    animation-delay: 1.5s;
+    animation-delay: 1.0s;
     animation-fill-mode: forwards;
     
     
@@ -381,11 +386,7 @@ text-align:left;
   border-top:5px solid white;
   margin-top:10px;
   
-  /* animation */
-  opacity: 0; 
-  animation: fadein 1s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
+  
   
   
 }
@@ -460,7 +461,7 @@ text-shadow: #9747FF 0.1em 0.1em ;
       margin-top: 15%;
       display: inline-block;
       max-width: 20vw;
-      -webkit-filter: grayscale(1);
+      -webkit-filter: grayscale(0);
   }
   
   .moss{font-size: 10px;}
@@ -521,6 +522,10 @@ iframe{
   max-width: 250px;
   max-height: 175px;
   
+}
+
+.container{
+  display: block;
 }
 }
 

@@ -233,22 +233,26 @@ img{
 }
 
 .ct-box{
-    margin-left: 25%;
-    max-width: 50%;
+    margin-left: 10%;
+    max-width: 80%;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+   
 }
 
 .content{
-
+  padding-left: 8px;
     margin-top: 20px;
     color:white;
     font-weight: 500;
-    text-align: center;
-    letter-spacing: 4px;
+    text-align: left;
+    letter-spacing: 1px;
     overflow: hidden;
-    
+    font-size: 17px;
+    /* text-shadow: black 0.05em 0.05em 0.1em; */
+    /* text-shadow: #9747FF 0.1em 0.1em 0.5em ; */
+    /* background:rgba(151,71,255); */
     background:rgba(151,71,255,0.1);
 
     /* animation */
@@ -437,12 +441,13 @@ text-shadow: #9747FF 0.1em 0.1em ;
       margin-top: 15%;
       display: inline-block;
       max-width: 20vw;
-      -webkit-filter: grayscale(1);
+      -webkit-filter: grayscale(0);
   }
   
   .moss{font-size: 10px;}
   .content{font-size: 15px;}
   .ct-box{
+    padding-left: 7px;
     margin-left: 0%;
     max-width: 150%;
     display: flex;

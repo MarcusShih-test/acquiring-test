@@ -463,7 +463,7 @@ section{
         margin-top: 15%;
         display: inline-block;
         max-width: 20vw;
-        -webkit-filter: grayscale(1);
+        -webkit-filter: grayscale(0);
     }
 
     .box h3{
